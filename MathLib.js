@@ -3,8 +3,8 @@ module.exports.add = (num1, num2) => {
 	return num1 + num2
 }
 
-module.exports.sutract = (num1, num2) => {
-	return num1 + num2
+module.exports.subtract = (num1, num2) => {
+	return num1 - num2
 }
 
 module.exports.longAdd = (num1, num2, callback) => {
