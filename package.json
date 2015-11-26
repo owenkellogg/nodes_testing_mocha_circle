@@ -1,0 +1,16 @@
+{
+  "name": "nodejs_testing_mocha_circle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "MathLib.js",
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
