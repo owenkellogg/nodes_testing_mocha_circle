@@ -1,5 +1,5 @@
 var assert = require('assert')
-var MathLib = require('./MathLib')
+var MathLib = require('../MathLib')
 
 describe('MathLib', () => {
 
@@ -26,5 +26,11 @@ describe('MathLib', () => {
 			assert.strictEqual(sum, 4)
 			done()
 		})
+	})
+
+	it('#subtract returns the difference', () => {
+		var difference = MathLib.subtract(5,3)
+
+		assert.strictEqual(difference, 2)	
 	})
 })
