@@ -33,4 +33,12 @@ describe('MathLib', () => {
 
 		assert.strictEqual(difference, 2)	
 	})
+
+	it('#divide should not accept zero as the denominator', () => {
+
+		//assert.throws(function() {
+			MathLib.divide(10, 0)
+		//})
+	})
 })
+
