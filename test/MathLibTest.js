@@ -36,9 +36,9 @@ describe('MathLib', () => {
 
 	it('#divide should not accept zero as the denominator', () => {
 
-		//assert.throws(function() {
+		assert.throws(function() {
 			MathLib.divide(10, 0)
-		//})
+		})
 	})
 })
 
